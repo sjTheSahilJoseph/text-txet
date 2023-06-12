@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Textform() {
+function Textform(props) {
 
     const [text, setText] = useState("");
 
@@ -43,10 +43,10 @@ function Textform() {
     }
 
     return (
-        <div className="container">
+        <div className="container " style={{backgroundColor: props.mode==='dark'?'#0A1648':null, color: props.mode==='dark'?'#ffffff':'black'}}>
             <div className="my-3">
                 <h2>Enter the Text : </h2>
-                <textarea onChange={handleOnChange} value={text} className="form-control" id="textForm" rows="8" placeholder='Write Here ... '></textarea>
+                <textarea onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'#0A1648':null, color: props.mode==='dark'?'#ffffff':'#0A1648'}} value={text} className="form-control" id="textForm" rows="8" placeholder='Write Here ... '></textarea>
                 <button onClick={handleUpperClick} type="button" className="btn btn-primary my-3 mx-1">UPPERCASE</button>
                 <button onClick={handleLowerClick} type="button" className="btn btn-primary my-3 mx-1">lowercase</button>
                 <button onClick={handleCapatalizeClick} type="button" className="btn btn-primary my-3 mx-1">Capatalize</button>
