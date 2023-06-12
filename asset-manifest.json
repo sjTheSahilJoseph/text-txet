@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/text-txet/static/css/main.31d6cfe0.css",
-    "main.js": "/text-txet/static/js/main.5285289a.js",
+    "main.js": "/text-txet/static/js/main.b0120e30.js",
     "static/js/787.4029813a.chunk.js": "/text-txet/static/js/787.4029813a.chunk.js",
     "index.html": "/text-txet/index.html",
-    "main.5285289a.js.map": "/text-txet/static/js/main.5285289a.js.map",
+    "main.b0120e30.js.map": "/text-txet/static/js/main.b0120e30.js.map",
     "787.4029813a.chunk.js.map": "/text-txet/static/js/787.4029813a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.5285289a.js"
+    "static/js/main.b0120e30.js"
   ]
 }
